@@ -1,0 +1,87 @@
+#1 Job Datascience
+Cover numpy, scipy, scikit-learn, plotly, pyspack, seaborn, pandas
+Crash course python
+numpy
+pandas
+matplotlib
+seaborn
+Interactive plot techniques
+scikitlearn
+tensorflow
+AWS bigdata - spark and AWS
+
+Dozen machine learning 
+
+Q&A Forums if need help
+FAQ - 
+Zipped jupyter file resource
+Can use whatever jupyter notebook/anaconda you want
+
+USE ANACONDA PROMPT 
+E: to switch drive
+
+
+Juypter
+use tab while cursor over defined variable to see list of methods
+To find out where notebooks located, type pwd in cell
+Install python and jupyter,  cd into file containing .ipynb files, then type jupyter notebook
+pip install jupyter
+jupyter notebook - open notebook wherever are in command prompt.
+Tab to autocomplete in command prompt
+New - create new notebook, create name
+Create code cell- contains python,
+Shift+Enter runs the cell
+Alt+Enter creates cell below
+ctrl+s Save
+File--> Download as --> create as .py
+Kernel- restart, to stop crashing or loop
+Help- libraries help, notebooks themselve. Used to be called ipython
+Look at help --> keyboard shortcuts
+Markdown cell, click dropdown to convert to markdown cell
+Supports markdown formatting, can do markdown or latex
+stating variable causes it to appear in out, but print() creates actual display below, to officially display stuff, print
+
+SHORTCUTS
+Shift+Enter runs the cell
+Alt+Enter creates cell below
+ctrl+s Save
+File--> Download as --> create as .py
+shift-tab : quick access docstrings of functions when hover over
+click outside cell then:
+a - insert abobe
+b - below
+d ,d - delete
+s - Save
+c, v, x - copy paste, cut
+
+Need to python: set interpreter as jupyter environment
+cannot run notebook from terminal
+can install jupyter extension and run as notebook insie visual studio code
+
+
+
+
+Anaconda virtual environments, set up installations python and libraries on computer, 
+multiple versions of python or libraries and easily activate/deactivate
+Different versions of library, when versions not backward compatible, 
+ensure python 2.7 and python 3.5 
+anaconda has a built in virtual environment manager
+conda create --name environame biopython (base package)
+/envs/environame (if base package not specified will use default used to install anaconda)
+activate environame
+conda install pandas
+deactivate 
+conda create --name mypython3 python=3.5 anaconda
+anaconda- specifies all anaconda default packages, does all with python 3.5
+conda info --envs lists environments
+
+
+
+Environment setup and installation
+
+anaconda
+Distribution of python, includes own virtual environment system, and many assistive libraries
+Jupyter is development environment allows display images and explore analyze Datascienc
+
+Anaconda comes with variety environments
+Jupyter uses browser as GUI, not actually connected to the internet

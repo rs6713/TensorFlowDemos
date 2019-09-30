@@ -1,0 +1,58 @@
+
+Intro to machine learning
+
+Using introduction to statistical learning  - machine learning from more mathematical background
+Get deeper mathematics background  for ML techniques
+Read chapter 1/2
+
+Overview
+ML-method data analysis automates analytical model building, algorithms iteratively learn from data, find hidden insights without being explicitly programmed
+
+Recomendatione engines, text sentiment analysis, patter/image recognition, spam filtering, predict customer churn, equipment failures, web search results, fraud detection, new pricing models
+
+ML process- aquire data, clean, model training and building, model testing on test data iterate, then deploy model
+
+supervised-labelled ata try preict label of known features, desired output known, algorithm compares actual output to predicted to calculate error
+Through classification, regression, prediction and gradient boosting, uses patterns to predict values of label on additional unlabeled data.
+used where historical data predicts future events
+
+unsupervised-unabeled  data, try to group similar points based off features
+Algoirhtm most explore data, determine what is being shown
+Find main attributes to segment data, e.g. self-organizing maps, nearest neighbour, k-means, singular value decomposition
+segment text topics, make recommendations, identify outliers
+
+reinforcement learning- learn to perform action from experience
+determine which action has greatest reward, used robotics gaming, navigation, trial error
+agent- learner/decision maker, environment (everyhting agent interacts with)
+actions - what agent can do
+Objective maximise award over time, maximises reward by choose correct policy.
+
+scikit-learn package
+conda install scikit-learn
+split data into test and training set 
+Every algorithm in scikit-earn exposed via an Estimator, import model
+from sklearn.family import modelname
+Once model created with parameters, need to split data using e.g. cross_validation.train_test_split
+
+Train/fit model on training data, 
+model.fit(X_train, Y_train)
+
+unsupervised different as dont have labels
+predictions=model.predict(test)
+Evaluation method depends on technique used: regression,classification, clustering
+
+on all Estimators:
+mode.fit(), supervised model.fit(X,y), unsupervised model.fit(X)
+
+model.predict(X_new) supervised predict label based unseen data
+model.predict_proba() For classification problems, returns probability each new observation has each categorical label, hgihest prob is returned by model.predict()
+
+model.score()  supervised estimators, classification/regression probles, score between 0 and 1, larger score indicating a better fit
+model.predict() #predict labels in clustering for unsupervised
+model.transform(X) unsupervised, transform new data into new basis, accepts X, returns representation of data based on unsupervised model
+model.fit_transform() unsupervised, more efficiently perform a fit and transform on same input data
+
+How to choose an algorithm
+scikitlearn cheatsheet 
+
+

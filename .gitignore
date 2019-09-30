@@ -4,4 +4,7 @@ lib/
 bin/
 include/
 ./include/
+Py-DS-ML-Bootcamp-master/
+.vscode/
+venv/
 
